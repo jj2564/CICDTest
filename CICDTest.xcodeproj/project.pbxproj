@@ -334,7 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DZJDGXKN9N;
 				INFOPLIST_FILE = CICDTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -343,7 +343,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.irvinghuang.CICDTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = CICDTest;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,8 +354,8 @@
 			baseConfigurationReference = 59731033B7FC67A940A685D6 /* Pods-CICDTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DZJDGXKN9N;
 				INFOPLIST_FILE = CICDTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -364,7 +364,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.irvinghuang.CICDTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = CICDTest_Dis;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
