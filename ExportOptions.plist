@@ -2,26 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>compileBitcode</key>
-	<false/>
-	<key>destination</key>
-	<string>export</string>
-	<key>method</key>
-	<string>ad-hoc</string>
 	<key>signingStyle</key>
 	<string>manual</string>
-	<key>stripSwiftSymbols</key>
-	<true/>
+	<key>method</key>
+	<string>ad-hoc</string>
 	<key>teamID</key>
 	<string>DZJDGXKN9N</string>
+	<key>signingCertificate</key>
+	<string>iOS Distribution</string>
 	<key>provisioningProfiles</key>
 	<dict>
 		<key>com.irvinghuang.CICDTest</key>
-		<string>fb4f154d-288d-4803-b841-ec8ad17d6248</string>
+		<string>e139e672-df23-4d09-aed1-f9c7b7177017</string>
 	</dict>
-	<key>signingCertificate</key>
-	<string>iPhone Distribution</string>
-	<key>thinning</key>
-	<string>&lt;none&gt;</string>
+	<key>iCloudContainerEnvironment</key>
+	<string>Development</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>compileBitcode</key>
+	<true/>
 </dict>
 </plist>
